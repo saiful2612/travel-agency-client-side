@@ -1,0 +1,16 @@
+.support-caption p {
+  color: #677f8b;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.section-tittle > span {
+  color: #7ea0ff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  display: inline-block;
+  letter-spacing: 0.05em;
+}

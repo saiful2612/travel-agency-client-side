@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.spinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.spinnerContainer .privateSpinner {
+  width: 6rem;
+  height: 6rem;
+  border-right-color: transparent;
+}
+.section-heading {
+  display: block;
+  line-height: 1.4;
+  margin-bottom: 22px;
+  color: #00095e;
+}

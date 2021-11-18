@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "tourName": "Darjeling Tour Plan",
+    "image": "https://i.ibb.co/mGBxWk4/darjeeling-tour.jpg",
+    "duration": "4 days & 3 nights tour",
+    "description": " Visit all the tourist sport with cheap rate and best facilities ",
+    "cost": 4500,
+    "ratings": 4.5,
+    "ratingsQuantity": 25,
+    "benefits": "We will give you 2 special dinner card with air tickets "
+  },
+  {
+    "id": 2,
+    "tourName": "Shimla & Manali Tour Plan",
+    "image": "https://i.ibb.co/FhPW0X8/manali-tour.jpg",
+    "duration": "5 days & 4 nights tour",
+    "description": " Visit all the tourist sport with cheap rate and best facilities ",
+    "cost": 7500,
+    "ratings": 4.7,
+    "ratingsQuantity": 35,
+    "benefits": "We will give you 3 special dinner card with air tickets "
+  },
+  {
+    "id": 3,
+    "tourName": "Nepal Tour Plan",
+    "image": "https://i.ibb.co/7kyYb9M/nepal-tour.jpg",
+    "duration": "4 days & 3 nights tour",
+    "description": " Visit all the tourist sport with cheap rate and best facilities ",
+    "cost": 3750,
+    "ratings": 4.4,
+    "ratingsQuantity": 20,
+    "benefits": "We will give you 2 special dinner card with air tickets "
+  },
+  {
+    "id": 4,
+    "tourName": "Bhutan Tour Plan",
+    "image": "https://i.ibb.co/MG4Cy1J/bhutan-tour.jpg",
+    "duration": "3 days & 3 nights tour",
+    "description": " Visit all the tourist sport with cheap rate and best facilities ",
+    "cost": 3500,
+    "ratings": 4.3,
+    "ratingsQuantity": 25,
+    "benefits": "We will give you 3 special dinner card with air tickets "
+  },
+  {
+    "id": 5,
+    "tourName": "Malaysia Tour Plan",
+    "image": "https://i.ibb.co/XbQDfRr/malaysia-tour.jpg",
+    "duration": "4 days & 5 nights tour",
+    "description": " Visit all the tourist sport with cheap rate and best facilities ",
+    "cost": 6250,
+    "ratings": 4.5,
+    "ratingsQuantity": 50,
+    "benefits": "We will give you 3 special dinner card with air tickets "
+  },
+  {
+    "id": 6,
+    "tourName": "Maldives Tour Plan",
+    "image": "https://i.ibb.co/D19qcn3/maldives-tour.jpg",
+    "duration": "5 days & 4 nights tour",
+    "description": " Visit all the tourist sport with cheap rate and best facilities ",
+    "cost": 7500,
+    "ratings": 4.9,
+    "ratingsQuantity": 25,
+    "benefits": "We will give you 4 special dinner card with air tickets "
+  },
+  {
+    "id": 7,
+    "tourName": "Bangkok Tour Plan",
+    "image": "https://i.ibb.co/Gc65Crc/bangkok-tour.jpg",
+    "duration": "4 days & 4 nights tour",
+    "description": " Visit all the tourist sport with cheap rate and best facilities ",
+    "cost": 5500,
+    "ratings": 4.8,
+    "ratingsQuantity": 30,
+    "benefits": "We will give you 3 special dinner card with air tickets "
+  },
+  {
+    "id": 8,
+    "tourName": "Bali Tour Plan",
+    "image": "https://i.ibb.co/tqP66rW/bali-tour.jpg",
+    "duration": "4 days & 3 nights tour",
+    "description": " Visit all the tourist sport with cheap rate and best facilities ",
+    "cost": 3800,
+    "ratings": 4.3,
+    "ratingsQuantity": 18,
+    "benefits": "We will give you 2 special dinner card with air tickets "
+  }
+]

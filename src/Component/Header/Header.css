@@ -1,0 +1,21 @@
+.header {
+  background-color: #7ea0ff;
+}
+.nav-link {
+  font-weight: 500;
+  text-align: center;
+}
+.navLinkContainer .nav-link::after {
+  content: "";
+  display: block;
+  width: 3.8rem;
+  height: 2px;
+  background: #dc3545;
+  transform: scale(0);
+  transition: all 0.5s ease;
+  margin: 0.5rem auto 0;
+}
+.navLinkContainer .nav-link:hover::after,
+.navLinkContainer a.active2::after {
+  transform: scale(1);
+}

@@ -1,0 +1,27 @@
+.cardStyles {
+  border-radius: 10px;
+  padding: 30px;
+  background: #c3e7fd;
+}
+.book-form {
+  border-radius: 10px;
+}
+.cardBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border:10px solid green; */
+  flex-direction: column;
+}
+
+.offer-writting {
+  color: red;
+}
+
+.headline {
+  color: #800000;
+}
+
+.amount-style {
+  color: #3cb371;
+}
