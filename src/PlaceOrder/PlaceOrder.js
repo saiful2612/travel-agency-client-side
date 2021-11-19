@@ -46,7 +46,7 @@ const PlaceOrder = (props) => {
       },
       body: JSON.stringify(userOrder),
     });
-    history.push("/myorders");
+    history.push("/allorders");
   };
 
   return (
