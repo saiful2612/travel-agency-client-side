@@ -4,7 +4,7 @@ const AllOrders = () => {
   const [orders, setOrders] = useState([]);
 
   const loadOrders = useCallback(async () => {
-    const response = await fetch(`http://localhost:8000/orders`);
+    const response = await fetch(`https://evening-peak-04757.herokuapp.com/orders`);
     const responseData = await response.json();
     setOrders(responseData);
   }, []);
@@ -17,7 +17,7 @@ const AllOrders = () => {
   //Order delete handler
   const handleDelete = async (_id) => {
     if (window.confirm("Are You sure you want to delete the order?")) {
-      const response = await fetch(`http://localhost:8000/orders/${_id}`, {
+      const response = await fetch(`https://evening-peak-04757.herokuapp.com/orders/${_id}`, {
         method: "DELETE",
       });
       const responseData = await response.json();
@@ -29,7 +29,7 @@ const AllOrders = () => {
 
   //Approve order handler
   const handleApprove = async (_id) => {
-    const response = await fetch(`http://localhost:8000/orders/${_id}`, {
+    const response = await fetch(`https://evening-peak-04757.herokuapp.com/orders/${_id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",

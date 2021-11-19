@@ -13,7 +13,7 @@ const AddTour = () => {
   //Form submit handler
   const handleSubmit = async (event) => {
     event.preventDefault();
-    const response = await fetch("http://localhost:8000/tours", {
+    const response = await fetch("https://evening-peak-04757.herokuapp.com/tours", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

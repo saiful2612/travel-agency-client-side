@@ -9,7 +9,7 @@ const MyOrder = () => {
   } = useAuth();
 
   const loadUserOrders = useCallback(async () => {
-    const response = await fetch(`http://localhost:8000/orders/${email}`);
+    const response = await fetch(`https://evening-peak-04757.herokuapp.com/orders/${email}`);
     const responseData = await response.json();
     setOrders(responseData);
   }, [email]);
@@ -22,7 +22,7 @@ const MyOrder = () => {
   //Order delete handler
   const handleDelete = async (_id) => {
     if (window.confirm("Are You sure you want to delete the order?")) {
-      const response = await fetch(`http://localhost:8000/orders/${_id}`, {
+      const response = await fetch(`https://evening-peak-04757.herokuapp.com/orders/${_id}`, {
         method: "DELETE",
       });
       const responseData = await response.json();

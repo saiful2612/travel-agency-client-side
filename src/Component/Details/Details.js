@@ -8,7 +8,7 @@ const Details = () => {
   const [product, setProducts] = useState({});
 
   useEffect(() => {
-    fetch("http://localhost:8000/tours")
+    fetch("https://evening-peak-04757.herokuapp.com/tours")
       .then((res) => res.json())
       .then((data) => setProducts(data.find((item) => item.id === +detailsId)));
   }, [detailsId]);

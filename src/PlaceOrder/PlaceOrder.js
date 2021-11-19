@@ -39,7 +39,7 @@ const PlaceOrder = (props) => {
       status: "pending",
     };
     delete userOrder._id;
-    fetch("http://localhost:8000/orders", {
+    fetch("https://evening-peak-04757.herokuapp.com/orders", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

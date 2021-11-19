@@ -1,11 +1,10 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyAzlAzzP_Uv3SnGRyP3zI-eaAsxpiVOL7Y",
-  authDomain: "react-http-e7fc6.firebaseapp.com",
-  databaseURL: "https://react-http-e7fc6-default-rtdb.firebaseio.com",
-  projectId: "react-http-e7fc6",
-  storageBucket: "react-http-e7fc6.appspot.com",
-  messagingSenderId: "944094974364",
-  appId: "1:944094974364:web:5dedf9818c53dca237f859",
+  apiKey: "AIzaSyC0uTIEoplkYS-OgG-u_xRsjBdK1dXXZms",
+  authDomain: "travel-agent-authentication.firebaseapp.com",
+  projectId: "travel-agent-authentication",
+  storageBucket: "travel-agent-authentication.appspot.com",
+  messagingSenderId: "254159070373",
+  appId: "1:254159070373:web:e4df3248f2eab1d5fd594c"
 };
 
 export default firebaseConfig;
